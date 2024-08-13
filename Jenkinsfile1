@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                ssh 'python3 first1.py'
+                sh 'python3 first1.py'
             }
         }
     }
